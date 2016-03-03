@@ -1,0 +1,22 @@
+﻿{
+  "version": "0.1.0-*",
+  "description": "SignalR Typescript Definition Generator",
+  "authors": [ "Richard Simpson" ],
+  "tags": [ "SignalR", "Typescript", "Definition", "d.ts" ],
+  "projectUrl": "https://github.com/RichiCoder1/SignalR.TypeScript",
+  "licenseUrl": "https://github.com/RichiCoder1/SignalR.TypeScript/blob/master/LICENSE",
+
+  "frameworks": {
+    "net451": { },
+    "dnxcore50": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-beta-23516",
+        "System.Collections": "4.0.11-beta-23516",
+        "System.Linq": "4.0.1-beta-23516",
+        "System.Runtime": "4.0.21-beta-23516",
+        "System.Threading": "4.0.11-beta-23516",
+        "System.Reflection": "4.1.0-beta-23516"
+      }
+    }
+  }
+}
